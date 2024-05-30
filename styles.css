@@ -1,0 +1,49 @@
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+.container h1 {
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.container label {
+    display: inline;
+    font-weight: bold;
+    color: gray;
+}
+
+
+.container input[type="text"],
+.container input[type="email"],
+.container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.container button {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.container button:hover {
+    background-color: blueviolet;
+}
